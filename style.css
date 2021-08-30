@@ -2,3 +2,23 @@
     text-align: center;
     background-color: red;
 }
+
+.cardImage {
+    background-color: cadetblue;
+    height: 300px;
+    width: 250px;
+    float: right;
+    margin-top: -100px;
+}
+
+.cardImagebawah {
+    background-color: cadetblue;
+    height: 300px;
+    width: 250px;
+    float: right;
+    margin-top: -10px;
+}
+
+.content-bottom {
+    margin-top: 150px;
+}

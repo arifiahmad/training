@@ -26,26 +26,30 @@
     height: 500px;
     width: 500px;
     float: right;
-    /* position: absolute; */
-    /* margin-right: -42px; */
     margin-top: -596px;
 }
 
 .wrapper-good {
-    padding-left: 200px;
+    padding: 70px;
 }
 
 p.inset {
     border-top: inset;
 }
 
+.wrapper-goodText {
+    height: 555px;
+    width: 700px;
+    margin-left: 555px;
+}
+
 .wrapper-good h2 {
     color: #5a5a5a;
-    font-weight: 300;
+    font-weight: 250;
     font-size: 50px;
     letter-spacing: -.05rem;
     line-height: 1;
-    margin: 0px;
+    padding-top: 100px;
 }
 
 .wrapper-good p {
@@ -57,8 +61,40 @@ p.inset {
     background-color: rgb(238, 238, 238);
     height: 500px;
     width: 500px;
-    float: left;
-    /* position: absolute; */
-    /* margin-left: -42px; */
-    margin-bottom: -590px;
+    margin-bottom: 250px;
+}
+
+
+.wrapper-lastly {
+    padding: 70px;
+}
+p.inset {
+    border-top: inset;
+}
+
+.wrapper-lastly h2 {
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -.05rem;
+    line-height: 1;
+    margin: 0px;
+}
+
+.wrapper-lastly p {
+    font-size: 1.20rem;
+    font-weight: 250;
+}
+
+.wrapper-lastlyText {
+    height: 600px;
+    width: 400px;
+}
+
+.cardImagelastly {
+    background-color: rgb(238, 238, 238);
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-top: -600px;
 }

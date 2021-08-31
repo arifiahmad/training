@@ -16,21 +16,29 @@
     font-weight: 250;
 }
 
+.wrapper-headingText {
+    height: 555px;
+    width: 700px;
+}
+
 .cardImageheading {
     background-color: rgb(238, 238, 238);
     height: 500px;
     width: 500px;
     float: right;
-    margin-top: -250px;
-    margin-right: -70px;
+    /* position: absolute; */
+    /* margin-right: -42px; */
+    margin-top: -596px;
 }
-
 
 .wrapper-good {
     padding: 150px;
 }
-p.inset {border-top: inset;
+
+p.inset {
+    border-top: inset;
 }
+
 .wrapper-good h2 {
     color: #5a5a5a;
     font-weight: 400;
@@ -44,6 +52,7 @@ p.inset {border-top: inset;
     font-size: 1.20rem;
     font-weight: 250;
 }
+
 .cardImagegood {
     background-color: rgb(238, 238, 238);
     height: 500px;

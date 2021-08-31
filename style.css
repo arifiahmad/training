@@ -1,52 +1,25 @@
-.arifin{
-    text-align: center;
-    background-color: red;
+.wrapper-heading {
+    padding: 100px;
 }
-.content-bottom {border: 1px solid black;
-    background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;}
+
+.wrapper-heading h2 {
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -.05rem;
+    line-height: 1;
+    margin: 0px;
+}
+
+.wrapper-heading p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
 
 .cardImage {
     background-color: rgb(238, 238, 238);
-    height: 300px;
-    width: 250px;
+    height: 380px;
+    width: 390px;
     float: right;
-    margin-top: 100px;
-
-}
-.text {
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 1;
-    letter-spacing: -.05rem;
-}
-.text01{
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-.cardImagebawah {
-    background-color: cadetblue;
-    height: 300px;
-    width: 250px;
-    float: right;
-    margin-top: -10px;
-}
-.text03 {
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 1;
-    letter-spacing: -.05rem;
-}
-.text04{
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 1rem;
-
-    margin-top: 150px;
+    margin-top: -170px;
 }

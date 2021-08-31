@@ -26,17 +26,21 @@
     height: 500px;
     width: 500px;
     float: right;
-    /* position: absolute; */
-    /* margin-right: -42px; */
     margin-top: -596px;
 }
 
 .wrapper-good {
-    padding: 150px;
+    padding: 70px;
 }
 
 p.inset {
     border-top: inset;
+}
+
+.wrapper-goodText {
+    height: 555px;
+    width: 700px;
+    margin-left: 555px;
 }
 
 .wrapper-good h2 {
@@ -45,7 +49,7 @@ p.inset {
     font-size: 50px;
     letter-spacing: -.05rem;
     line-height: 1;
-    margin: 0px;
+    padding-top: 100px;
 }
 
 .wrapper-good p {
@@ -57,6 +61,5 @@ p.inset {
     background-color: rgb(238, 238, 238);
     height: 500px;
     width: 500px;
-    float: left;
     margin-bottom: 250px;
 }

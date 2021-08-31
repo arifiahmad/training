@@ -32,7 +32,7 @@
 }
 
 .wrapper-good {
-    padding: 150px;
+    padding-left: 200px;
 }
 
 p.inset {
@@ -41,7 +41,7 @@ p.inset {
 
 .wrapper-good h2 {
     color: #5a5a5a;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 50px;
     letter-spacing: -.05rem;
     line-height: 1;
@@ -50,7 +50,7 @@ p.inset {
 
 .wrapper-good p {
     font-size: 1.20rem;
-    font-weight: 250;
+    font-weight: 500;
 }
 
 .cardImagegood {
@@ -58,5 +58,7 @@ p.inset {
     height: 500px;
     width: 500px;
     float: left;
-    margin-bottom: 250px;
+    /* position: absolute; */
+    /* margin-left: -42px; */
+    margin-bottom: -590px;
 }

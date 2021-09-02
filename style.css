@@ -12,12 +12,26 @@
 }
 
 .cardHeading {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     text-align: center;
     flex: 0 0 auto;
     width: 33.33333333%;
 }
 
+.button {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 .wrapper-some {
     padding: 50px;
 }
@@ -50,7 +64,7 @@
 
 
 .wrapper-heading {
-    padding: 70px;
+    padding: 80px;
 }
 
 .wrapper-heading h2 {
@@ -74,10 +88,11 @@
 
 .cardImageheading {
     background-color: rgb(238, 238, 238);
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     float: right;
-    margin-top: -596px;
+    margin-top: -600px;
+    margin-right: -70px;
 }
 
 .wrapper-good {
@@ -100,12 +115,14 @@ p.inset {
     font-size: 50px;
     letter-spacing: -.05rem;
     line-height: 1;
-    padding-top: 100px;
+    padding-top: 150px;
+    margin-left: -50px;
 }
 
 .wrapper-good p {
     font-size: 1.20rem;
     font-weight: 500;
+    margin-left: -68px;
 }
 
 .cardImagegood {
@@ -117,7 +134,7 @@ p.inset {
 
 
 .wrapper-lastly {
-    padding: 70px;
+    padding: 50px;
 }
 
 p.inset {
@@ -128,25 +145,26 @@ p.inset {
     color: #5a5a5a;
     font-weight: 400;
     font-size: 50px;
-    letter-spacing: -.05rem;
+    letter-spacing: -0,5rem;
     line-height: 1;
     margin: 0px;
 }
 
 .wrapper-lastly p {
-    font-size: 1.20rem;
+    font-size: 0,5rem;
     font-weight: 250;
 }
 
 .wrapper-lastlyText {
-    height: 600px;
+    height: 500px;
     width: 400px;
 }
 
 .cardImagelastly {
     background-color: rgb(238, 238, 238);
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     float: right;
-    margin-top: -600px;
+    margin-top: -400px;
+    margin-right: -170px;
 }

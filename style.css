@@ -1,61 +1,25 @@
-.row{
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
-    margin-left: calc(var(--bs-gutter-x) * -.5);
-
+.row {
+  display: flex;
+  justify-content: center;
 }
-.cardImagesome {
-    border-radius: 150px;
-    background: #5a5a5a;
-    padding: 10px; 
-    width: 100px;
-    height: 100px;  
-  }
-  
+
+.round-circle {
+    border-radius: 50%;
+    width: 40%;
+    height: 80px;
+    margin-left: 139px;
+    background-color: rgb(119, 119, 119);
+}
+
+.cardHeading {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
 .wrapper-some {
     padding: 50px;
-}
-
-.circle {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    flex: 0 0 auto;
-    width: 33.33333333%;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y);
-}
-
-.cardImageanother {
-    border-radius: 150px;
-    background: #5a5a5a;
-    padding: 10px; 
-    width: 100px;
-    height: 100px;  
-  }
-  
-.anotherText{
-    padding: 50px;
-}
-
-.bulat {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    flex: 0 0 auto;
-    width: 33.33333333%;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y);
 }
 
 .wrapper-some h2 {
@@ -68,9 +32,9 @@
 }
 
 .wrapper-some p {
-    font-size: 0,1rem;
+    font-size: 0, 1rem;
     font-weight: 50;
-    margin-bottom: 0,1rem;
+    margin-bottom: 0, 1rem;
     text-align: center;
 
 }
@@ -155,6 +119,7 @@ p.inset {
 .wrapper-lastly {
     padding: 70px;
 }
+
 p.inset {
     border-top: inset;
 }

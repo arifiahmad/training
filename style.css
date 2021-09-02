@@ -1,3 +1,90 @@
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+
+}
+.cardImagesome {
+    border-radius: 150px;
+    background: #5a5a5a;
+    padding: 10px; 
+    width: 100px;
+    height: 100px;  
+  }
+  
+.wrapper-some {
+    padding: 50px;
+}
+
+.circle {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.cardImageanother {
+    border-radius: 150px;
+    background: #5a5a5a;
+    padding: 10px; 
+    width: 100px;
+    height: 100px;  
+  }
+  
+.anotherText{
+    padding: 50px;
+}
+
+.bulat {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.wrapper-some h2 {
+    color: #5a5a5a;
+    font-weight: 40;
+    font-size: 5px;
+    letter-spacing: -.05rem;
+    line-height: 5;
+    margin: 0px;
+}
+
+.wrapper-some p {
+    font-size: 0,1rem;
+    font-weight: 50;
+    margin-bottom: 0,1rem;
+    text-align: center;
+
+}
+
+.wrapper-someText {
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
 .wrapper-heading {
     padding: 70px;
 }

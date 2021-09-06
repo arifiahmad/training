@@ -4,6 +4,15 @@ table, th, td {
     align: justify;
     width: 100px;
 }
+
+.card {
+  width: 300px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 button {
   border: none;
   outline: 0;

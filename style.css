@@ -1,41 +1,71 @@
 
 .card {
-     /* width: 300px; */
+    width: 286px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 350px;
     /* margin: auto; */
     text-align: center;
     font-family: arial;
-    background-color: rgba(0,0,0,.03);
+    background-color: white;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 .flex-container{
   /* flex-direction: flow; */
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.border{
-  border:1px solid black;
-  width: auto;
-  background-color: cornsilk;
-  margin-left: auto;
+.w-100 {
+    width: 100%!important;
+}
+.btn-group-lg>.btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+}
+.btn:hover {
+  color: #212529;
+}
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: white;
 }
 
+.btn-outline-primary:hover {
+  color: white;
+  border-color: #0d6efd;
+  background-color:  #0d6efd!important
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid  #0d6efd;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 button {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 20px;
+  padding: 13px;
   color: white;
-  background-color: rgb(14, 64, 230);
+  background-color: #0b5ed7;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   font-size: 18px;
+  border-radius: .3rem;
 }
 button:hover, a:hover {
   opacity: 0.7;
@@ -48,18 +78,32 @@ button:hover, a:hover {
     background-color: ghostwhite;
 }
 .card-header{
-  padding: .5rem 7rem;
-  margin-bottom: 0;
-  background-color: rgba(0,0,0,.03);
+  padding: .5rem 0rem;
+  margin-bottom: 0px;
+  background-color: rgba(0,0,0,.125);
   border-bottom: 1px solid rgba(0,0,0,.125);
+
 }
 .card-body{
   flex: 1 1 auto;
-  padding: -1rem 2rem;
+  padding: 1rem 1rem;
 }
 .py-3{
-  padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
+  padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.mt-3 {
+  margin-top: 1rem!important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem!important;
 }
 .p-3{
 padding: 2rem;

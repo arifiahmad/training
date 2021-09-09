@@ -77,6 +77,16 @@ button:hover, a:hover {
     padding: 40px;
     background-color: ghostwhite;
 }
+
+.plan{
+
+  text-align: center;
+  align: justify;
+  color: black;
+  padding: 40px;
+  background-color: ghostwhite;
+}
+}
 .card-header{
   padding: .5rem 0rem;
   margin-bottom: 0px;
@@ -117,7 +127,32 @@ max-width: 700px;
 }
 .text-center{
 text-align: center!important;
+}
 
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #212529;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: #212529;
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: #212529;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+  margin-left: 250px;
+}
+
+.thead {
+  display: table-header-group;
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}

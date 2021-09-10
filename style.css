@@ -18,12 +18,6 @@
   text-align: center;
   justify-content: center;
 }
-.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
-  padding: 9px 80px!important;
-  display: table-cell;
-  text-align: left;
-  vertical-align: top;
-}
 
 .w-100 {
     width: 100%!important;

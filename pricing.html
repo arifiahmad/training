@@ -12,16 +12,39 @@
   table,
   td,
   th {
-    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-right-width: none;
   }
 
   table {
     border-collapse: collapse;
-    width: 100%;
+    width: 68%;
+    border-style:inherit;
+    margin-left: 200px;
+
   }
 
+  .border{
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+  }
+  .bordertwo{
+    border-style: solid;
+  border-width: 1px 1px; /* 20px top and bottom, 5px on the sides */
+  border-top-width: 0px;
+  border-right-width: 0px!important;
+  border-left-width: 0px;
+  text-align: center;
+  }
   td {
+    text-align: left;
     text-align: center;
+    padding: 8px;
   }
 </style>
 
@@ -94,34 +117,51 @@
   <table>
     <tr>
       <th></th>
+      <th>Free</th>
       <th>Pro</th>
       <th>Enterprise</th>
 
     </tr>
-    <tr>
-      <td>Public</td>
-
+    <tr class="border";>
+      <td >Public</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+    </tr>
+    <tr class="bordertwo">
       <td>Private</td>
-
+      <td</td>
+      <td></td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+    </tr>
+    <tr>
       <td>Permissions</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
     </tr>
     <tr>
-      <td>Sharing</td>
-
       <td>Unlimited members</td>
-
-      <td>Extra Security</td>
+      <td></td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
     </tr>
     <tr>
-      <td>column</td>
-
-      <td>column members</td>
-
-      <td>column2</td>
+      <td>Extra Security</td>
+      <td</td>
+      <td></td>
+      <td></td>
+      <td style="font-family: wingdings; font-size: 200%;">&#252;</td>
     </tr>
   </table>
 
+  <footer class="pricing-header p-3 mx-auto text-center"
+  <div class="Plan">
+    <h1>Compare Plan</h1>
+  </div>
 
+</footer>
 </body>
 
 </html>

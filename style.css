@@ -1,3 +1,37 @@
+.flex-containerheader{
+  /* flex-direction: flow; */
+  display: flex;
+  text-align: center;
+  justify-content: center!important;                              
+  margin: -32px;
+}
+
+.headerhome{
+  padding: 20px;
+  display: flex;
+  color: #0d6efd;
+  justify-content: center;
+}
+.header{
+  padding: 20px;
+  display: flex;
+  color: #0d6efd;
+  justify-content: center;
+  margin-right: 800px;
+}
+
+.buttonhome {
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: .25rem;
+}
 
 .card {
     width: 286px;
@@ -102,7 +136,7 @@ button:hover, a:hover {
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 60px;
   list-style: none;
 }
 
@@ -455,4 +489,12 @@ p.inset {
     float: right;
     margin-top: -400px;
     margin-right: -170px;
+}
+  
+.footer {
+  text-align: left;
+  padding: 3px;
+  background-color: ghostwhite;
+  color: black;
+  justify-content: center;
 }

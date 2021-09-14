@@ -4,51 +4,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" type="text/css" href="./style.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="./style.table.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
   <title>Pricing</title>
 </head>
 
-<style>
-  table,
-  td,
-  th {
-    border-left-style: none;
-    border-right-style: none;
-    border-top-style: none;
-    border-right-width: none;
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 68%;
-    border-style:inherit;
-    margin-left: 200px;
-
-  }
-
-  .border{
-    border-style: solid;
-    border-width: 1px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-  }
-  .bordertwo{
-    border-style: solid;
-  border-width: 1px 1px; /* 20px top and bottom, 5px on the sides */
-  border-top-width: 0px;
-  border-right-width: 0px!important;
-  border-left-width: 0px;
-  text-align: center;
-  }
-  td {
-    text-align: left;
-    text-align: center;
-    padding: 8px;
-  }
-</style>
-
 <body>
+  <div class="flex-containerheader headerhome">
+    <header class="headerhome">
+    <button class="headerhome buttonhome"><a href="#">Home</a></button>
+    <div class="headerhome"><a href="#">Features</a></div>
+    <div class="headerhome"><a href="index.html">Pricing</a></div>
+    <div class="headerhome"><a href="#">FAQs</a></div>
+    <div class="headerhome"><a href="#">About</a></div>
+    </header>
+    </div>
+    
   <p class="line"></p>
   <div class="p">
     <div class="pricing-header p-3 mx-auto text-center">
@@ -156,12 +127,36 @@
     </tr>
   </table>
 
-  <footer class="pricing-header p-3 mx-auto text-center"
-  <div class="Plan">
-    <h1>Compare Plan</h1>
+  <footer>
+    <div class="footer flex-container">
+      <ul class="list-unstyled mt-3 mb-4">
+      <li><h6>© 2017–2021</h6></li>
+      </ul>
+      
+  <ul class="list-unstyled mt-3 mb-4">
+    <li><h4>Features</h4></li>
+    <li>Cool stuff</li>
+    <li>Random feature</li>
+    <li>Team Feature</li>
+    <li>Stuff for developers</li>
+    <li>Another one</li>
+    <li>Last time</li>
+  </ul>
+  <ul class="list-unstyled mt-3 mb-4">
+    <li><h4>Resources</h4></li>
+    <li>Resources</li>
+    <li>Resources Name</li>
+    <li>Another Resources</li>
+    <li>Final Resources</li>
+  </ul>
+  <ul class="list-unstyled mt-3 mb-4">
+    <li><h4>About</h4></li>
+    <li>Team</li>
+    <li>Locations</li>
+    <li>Privacy</li>
+    <li>Term</li>
+  </ul>
   </div>
-
-</footer>
+  </footer>
 </body>
-
 </html>
